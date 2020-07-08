@@ -3,7 +3,8 @@
     "test": {
       "scripts": {
         "test-setup": "npm install",
-        "test": "npm run tdd"
+        "tdd": "npm run tdd",
+        "bdd": "npm run tdd"
       }
     }
   }
