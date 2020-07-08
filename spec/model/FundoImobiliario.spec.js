@@ -5,7 +5,7 @@ describe('FundoImobiliario', ()=> {
     await FundoImobiliario.deleteMany()
   })
 
-  it('Um teste simples para passar na CI', async () => {
+  it('Um teste simples para passar na CI', () => {
     const cliente = {nome: "danilo", id:1}
     expect(cliente.nome).not.toBeUndefined()
   });
